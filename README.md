@@ -1,7 +1,7 @@
 # water-wheel
 Water Wheel - dynamic streams for Java
 
-As a stream flows, the water wheel turns.  This means the machinery is stateful and steps forward to a new state on each new input.  This is exactly what happens in a regular
+As a stream flows, the water wheel turns.  The machinery is stateful and steps forward to a new state on each new input.  This is exactly what happens in a regular
 expression engine or a deterministic finite automata (which can parse a wider class of languages than regular languages).
 
 Get the power and flexibility of regular languages and parser generators in your stream and reactive apps.

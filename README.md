@@ -10,7 +10,7 @@ An easy to use parser generator. Intended for use in concurrent applications suc
 
 Use water-wheel to extend [jStatePool](http://github.com/shannonbay/jStatePool) event-driven business rules with sequence predicates. Add some connections and you've got the basis for a flexible message broker.
 
-Includes a fast SIP (Session Initiation Protocol) Lexer/Parser for demonstration and testing purposes.
+Includes a fast SIP (Session Initiation Protocol) Lexer/Parser for demonstration and testing purposes. (TODO)
 
 This implementation minimises garbage creation by generating an immutable non-deterministic PDA with an equivalent computational complexity to the pure derivatives approach taken by Matt Might and David Darais.  This is because the parser only generates derivative sub-trees when entering a recursive reference, otherwise it uses a fast NFA.
 

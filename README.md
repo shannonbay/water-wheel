@@ -21,7 +21,7 @@ This implementation minimises garbage creation by generating an immutable non-de
 ## Features
 
 - Unified Parser/Lexer definition
-    - Inline actions alongside Lexer/Parser rules
+    - Inline actions alongside Lexer/Parser rules (TODO)
     - Build an AST or any other output from a good parse (TODO)
 - LR Grammar supported (TODO)
 - BNF syntax using Scala operator overrides
